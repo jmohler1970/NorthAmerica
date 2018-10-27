@@ -10,6 +10,9 @@ GO
 ALTER TABLE dbo.Users ADD loginToken varchar(96) NULL
 GO
 
+ALTER TABLE dbo.Users ADD TokenCreateDate smalldatetime NULL
+GO
+
 -- We need to make sure we have a good user
 
 USE [UserManager]
