@@ -17,6 +17,9 @@ GO
 
 USE [UserManager]
 
+-- the secret password is: password
+-- all lowercase, no quotes no caps
+
 INSERT
 INTO dbo.Users (FirstName, LastName, StateProvinceID, Email, Passhash)
 VALUES ('George', 'Washington', 'NV', 'gwash@wh.org',
